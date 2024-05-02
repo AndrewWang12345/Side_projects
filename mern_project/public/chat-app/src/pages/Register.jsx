@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css"
 import { RegisterRoute } from '../assets/utils/APIRoutes';
 import axios from "axios";
 function Register() {
-    const navigate = useNavigate()
+    const navigate = useNavigate();
     const [values, setValues] = useState({
         username: "",
         password: "",
